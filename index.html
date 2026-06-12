@@ -59,10 +59,10 @@
   <div id="quiz">
     <div class="kicker">Class of A26 · NYU Stern School of Business</div>
     <h1>A26 Groupchat <span class="grad">Overview</span></h1>
-    <div class="sub">Members only — prove you lived it. Three questions.</div>
+    <div class="sub">Members only — prove you lived it. Four questions.</div>
     
     <div class="q">
-      <div class="q-num">Question 1 of 3</div>
+      <div class="q-num">Question 1 of 4</div>
       <div class="q-text">What is our class fruit?</div>
       <div class="opts">
         
@@ -85,7 +85,7 @@
       </div>
     </div>
     <div class="q">
-      <div class="q-num">Question 2 of 3</div>
+      <div class="q-num">Question 2 of 4</div>
       <div class="q-text">What's the unofficial class drink?</div>
       <div class="opts">
         
@@ -108,7 +108,7 @@
       </div>
     </div>
     <div class="q">
-      <div class="q-num">Question 3 of 3</div>
+      <div class="q-num">Question 3 of 4</div>
       <div class="q-text">After class lets out, where does A26 end up?</div>
       <div class="opts">
         
@@ -130,6 +130,29 @@
         </label>
       </div>
     </div>
+    <div class="q">
+      <div class="q-num">Question 4 of 4</div>
+      <div class="q-text">What does CPO stand for — and who holds the title?</div>
+      <div class="opts">
+        
+        <label class="opt">
+          <input type="radio" name="q3" value="procurementstephen">
+          <span>Chief Procurement Officer — Stephen</span>
+        </label>
+        <label class="opt">
+          <input type="radio" name="q3" value="peopleshelley">
+          <span>Chief People Officer — Shelley</span>
+        </label>
+        <label class="opt">
+          <input type="radio" name="q3" value="partykishan">
+          <span>Chief Party Officer — Kishan</span>
+        </label>
+        <label class="opt">
+          <input type="radio" name="q3" value="pickleballivin">
+          <span>Chief Pickleball Officer — Ivin</span>
+        </label>
+      </div>
+    </div>
     <button id="go" disabled>Fire it up 💜</button>
     <div class="err" id="err"></div>
     <div class="skip">Already know the password? <a href="chat.html">Skip the quiz →</a></div>
@@ -143,8 +166,8 @@
   </div>
 </div>
 <script>
-const PAYLOAD = { iv: "BxRJxY0OE0uCibVo", ct: "dToqb8tQ3MaoNsqExp9/7Rc798bcIhRXFSklU8TUyrnHohfz+CoUedMHPXOH0nLHDULcLwb+AYib5gcKreaf6COKsZawG70O9NReEUIZ2eIaFhWj/oucoiSXA1ejkFXbB52tvNQDU71/XccgJR4K+r3vYSbVxojer9F5xnwLh+EKwmJKflx+c2urLaM=" };
-const N = 3;
+const PAYLOAD = { iv: "1+nZGGU8KG7gY9Km", ct: "ttw1HRsVEBFC5zzVrdhaCEXeGaPDupoaTa+7jvaYn1WTWji2fBXH4RxtGMxdHpnYuDu/vCNRcAgJlOehduUZpUSHClB4NyxELQsk3viOOZjyp1x3u9K7J0eF0qzhy06t9bloV6Q2nc+VsEYcU0/CAMUSblrqCSKvOnQ1MlqbttDcgKDJfi4kLHh0coo=" };
+const N = 4;
 const go = document.getElementById("go");
 const err = document.getElementById("err");
 const quiz = document.getElementById("quiz");
