@@ -1,4 +1,4 @@
-# A26 — The Group Chat 💜
+# A26 Groupchat Overview 💜
 
-Password-protected page for the NYU Stern EMBA Class of 2026.
+Password-protected page for A26 — Class of 2026, NYU Stern School of Business.
 The content on this site is AES-encrypted; you need the class password to view it.
